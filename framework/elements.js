@@ -1,0 +1,15 @@
+import { CustomC } from "./component.js";
+
+export const CustomDiv = CustomC.bind(null, "div")
+export const CustomP = CustomC.bind(null, "p")
+export const CustomButton = CustomC.bind(null, "button")
+export const CustomA = CustomC.bind(null, "a")
+export const CustomSection = CustomC.bind(null, "section")
+export const CustomHeader = CustomC.bind(null, "header")
+export const CustomH1 = CustomC.bind(null, "h1")
+export const CustomInput = CustomC.bind(null, "input")
+export const CustomLabel = CustomC.bind(null, "label")
+export const CustomUl = CustomC.bind(null, "ul")
+export const CustomLi = CustomC.bind(null, "li")
+export const CustomFooter = CustomC.bind(null, "footer")
+export const CustomSpan = CustomC.bind(null, "span")
